@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Krub';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Krub Light'), local('Krub-Light'), url(../assets/Krub/Krub-Light.woff) format('woff'), url(../assets/Krub/Krub-Light.ttf) format('truetype'), url(../assets/Krub/Krub-Light.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Krub';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../assets/Krub/Krub-Regular.eot);
+  src: local('Krub Regular'), local('Krub-Regular'), local('Krub'), url(../assets/Krub/Krub-Regular.woff) format('woff'), url(../assets/Krub/Krub-Regular.eot?#iefix) format('embedded-opentype'), url(../assets/Krub/Krub-Regular.ttf) format('truetype'), url(../assets/Krub/Krub-Regular.woff2) format('woff2'), url(../assets/Krub/Krub-Regular.svg#Krub) format('svg');
+}
+
+@font-face {
+  font-family: 'Krub';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Krub Bold'), local('Krub-Bold'), url(../assets/Krub/Krub-Bold.woff) format('woff'), url(../assets/Krub/Krub-Bold.ttf) format('truetype'), url(../assets/Krub/Krub-Bold.woff2) format('woff2');
+}
+
