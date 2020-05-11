@@ -1,0 +1,121 @@
+.center {
+  text-align: center;
+}
+
+// Centrar elementos INLINE
+.elemento-padre {
+  border: 1.5px solid green;
+  border-radius: 10px;
+  color: blue;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: azure;
+}
+
+// Centrar elementos INLINE BLOCK (UN ELEMENTO DE BLOQUE)
+.hijo-uno {
+  background-color: burlywood;
+  width: 300px;
+  text-align: left;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hijo-dos {
+  background-color: burlywood;
+  width: 300px;
+  margin: 0 auto;
+  text-align: right;
+}
+
+// Centrar elementos INLINE BLOCK (VARIOS ELEMENTOS DE BLOQUE) con FlexBox
+.elemento-padre-block {
+  display: flex;
+  justify-content: center;
+  border: 1.5px solid orchid;
+  border-radius: 10px;
+  background-color: black;
+}
+.hijo {
+  background-color: cadetblue;
+  padding: 1rem;
+  margin: 1rem auto;
+}
+
+// Centrar elementos INLINE BLOCK (VARIOS ELEMENTOS DE BLOQUE) sin FlexBox
+.elemento-padre-block1 {
+  text-align: center;
+  border: 1.5px dashed orange;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+}
+.hijo1 {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: lavender;
+  display: inline-block;
+}
+
+// CENTRAR ELEMENTOS VERTICALMENTE (ELEMENTOS INLINE)
+.padre-vertical {
+  border: 1.5px solid orchid;
+  border-radius: 10px;
+  background-color: black;
+  height: 100px;
+}
+.hijo-vertical {
+  line-height: 100px;
+  color: white;
+}
+
+// CENTRAR ELEMENTOS VERTICALMENTE (ELEMENTOS INLINE VARIAS LINEAS)
+.padre-vertical1 {
+  border: 1.5px solid orchid;
+  border-radius: 10px;
+  background-color: moccasin;
+  height: 300px;
+  width: 300px;
+  display: table;
+}
+.hijo-vertical1 {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 1rem;
+  text-align: justify;
+}
+
+// CENTRAR ELEMENTOS VERTICALMENTE (ELEMENTOS INLINE VARIAS LINEAS) CON FlexBox
+.padre-vertical2 {
+  border: 1.5px solid orchid;
+  border-radius: 10px;
+  background-color: moccasin;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+.hijo-vertical2 {
+  padding: 1rem;
+  text-align: justify;
+}
+
+// CENTRAR VERTICALMENTE ELEMENTOS DE BLOQUE
+.padre-bloque {
+  background: green;
+  height: 200px;
+  position: relative;
+}
+
+.hijo-bloque {
+  background: dodgerblue;
+  width: 100px;
+  /*IMPORTANTE*/
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+}
+
